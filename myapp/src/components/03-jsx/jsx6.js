@@ -3,7 +3,7 @@ import React from 'react'
 const Jsx6 = () => {
   return (
     <table>
-        <thead>
+   {/*      <thead>
             <tr>
                 <th>No</th>
                 <th>Country Name</th>
@@ -19,7 +19,7 @@ const Jsx6 = () => {
                 <th>{country.code}</th>
             </tr>
             })}
-        </tbody>
+        </tbody> */}
     </table>
 
 
