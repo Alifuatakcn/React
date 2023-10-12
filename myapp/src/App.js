@@ -23,18 +23,19 @@ const App= () =>{
          <Jsx1/>
          <Jsx2/> 
          <Jsx3/>
-         <Jsx4/> */}
-         {/* <Jsx5/>
-         <Jsx6/> */}
+         <Jsx4/> 
+         <Jsx5/>*/}
+         <Jsx6/> 
          {/* <Style1/>
          <Style2/> */}
          {/* <Style3/> 
          <Style4/>
          <Clock1/> */}
-         <Homework/>
+         
         {/* <Greetings/> */}
         {/* <Products/> */}
-        {/* <Clock2 textColor="red" bgColor="blue"/> */}
+        {/* <Clock2 textColor="red" bgColor="blue"/>
+         <Homework/>*/}
          
    </div>
   )
