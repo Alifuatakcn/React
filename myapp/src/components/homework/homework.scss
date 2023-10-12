@@ -1,0 +1,38 @@
+.container{
+    display: blok;
+    background-color: rgb(240, 233, 225);
+    .header-navbar{
+       background-color: rgb(65, 147, 65);
+       border-radius: 1rem;
+       padding: 1rem;
+
+       ul{
+        display:flex;
+        text-Align: center;
+        justify-content: space-around;
+        gap: 3rem;
+        list-style-type: none;
+
+        li{
+            border-radius: 1rem;
+            padding: 0.3rem;
+        }
+       }
+    }
+    .side-cont{
+        display: flex;
+        gap: 2rem;
+        margin-top: 2rem;
+        .sidebar{
+            background-color: rgb(49, 107, 107);
+            padding: 8%;
+            border-radius: 1rem;
+        }
+        .content{
+            background-color: rgb(228, 106, 106);
+            padding: 40%; 
+            border-radius: 1rem;
+
+        }
+    }
+}

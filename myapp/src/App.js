@@ -31,10 +31,10 @@ const App= () =>{
          {/* <Style3/> 
          <Style4/>
          <Clock1/> */}
-        {/*  <Homework/> */}
+         <Homework/>
         {/* <Greetings/> */}
         {/* <Products/> */}
-        <Clock2 textColor="red" bgColor="blue"/>
+        {/* <Clock2 textColor="red" bgColor="blue"/> */}
          
    </div>
   )
