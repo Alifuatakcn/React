@@ -14,6 +14,9 @@ import Homework from "./components/homework/homework";
 import Greetings from "./components/06-props-1/greetings";
 import Products from "./components/07-props-2/products";
 import Clock2 from "./components/08-clock2/clock2";
+import Image from "./components/09-image/image";
+import Gallery from "./components/09-image/gallery";
+import ProfileCard from "./components/10-profile-card/profile-card";
 
 
 const App= () =>{
@@ -23,19 +26,22 @@ const App= () =>{
          <Jsx1/>
          <Jsx2/> 
          <Jsx3/>
-         <Jsx4/> */}
+         <Jsx4/> 
          <Jsx5/>
          {/*<Jsx6/> 
           <Style1/>
-         <Style2/> */}
+         <Style2/> 
          {/* <Style3/> 
-         <Style4/>
-         <Clock1/> */}
+         <Style4/> 
+         {/*<Clock1/>
          
-        {/* <Greetings/> */}
-        {/* <Products/> */}
-        {/* <Clock2 textColor="red" bgColor="blue"/>
-         <Homework/>*/}
+        {/* <Greetings/> 
+        {/* <Products/> 
+        {/* <Clock2 textColor="red" bgColor="blue"/>*/}
+         {/* <Homework/> */}
+        {/*  <Image/> */}
+        {/* <Gallery/> */}
+        <ProfileCard avatar="image6.jpg" name="Ali gel" location="Turkey , Istanbul" shot="" followers="" following="" />
          
    </div>
   )

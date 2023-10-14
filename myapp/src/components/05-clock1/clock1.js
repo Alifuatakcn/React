@@ -5,7 +5,7 @@ import "./clock1.scss"
 const Clock1 = () => {
 
     const dateTime=moment();
-    //require('moment/locale/tr')
+    require('moment/locale/tr')
 
     const timeStr=moment().format("HH:mm");
     const dateStr=dateTime.format("LL");
