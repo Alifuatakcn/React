@@ -17,6 +17,9 @@ import Clock2 from "./components/08-clock2/clock2";
 import Image from "./components/09-image/image";
 import Gallery from "./components/09-image/gallery";
 import ProfileCard from "./components/10-profile-card/profile-card";
+import BootstrapStatic from "./components/11-bootstrap/bootstrap-static";
+import Icon from "./components/12-icons/icon";
+import Events from "./components/13-events/events";
 
 
 const App= () =>{
@@ -41,8 +44,12 @@ const App= () =>{
          {/* <Homework/> */}
         {/*  <Image/> */}
         {/* <Gallery/> */}
-        <ProfileCard avatar="image6.jpg" name="Ali gel" location="Turkey , Istanbul" shot="1" followers="23" following="34" />
-         
+    {/* <ProfileCard avatar="image6.jpg" name="Ali gel" location="Turkey , Istanbul" shot="1" followers="23" following="34" />
+ */}  
+        {/* <BootstrapStatic/>   */}  
+        {/* <BootstrapDynamic/>    */}
+        {/* <Icon/> */}
+        <Events/>
    </div>
   )
 }
