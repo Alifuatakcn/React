@@ -46,14 +46,14 @@ const App= () =>{
             <Homework/>
             <Image/>
             <Gallery/> 
-            <ProfileCard avatar="image6.jpg" name="Ali gel" location="Turkey , Istanbul" shot="1" followers="23" following="34" />
  
             <BootstrapStatic/>    
             <BootstrapDynamic/>
             <Icon/> 
-            
+            <Events/>
             */}
-        <Events/>
+            <ProfileCard avatar="cooper.jpg" name="Ali gel" location="Turkey , Istanbul" shot="1" followers="23" following="34" />
+
    </div>
   )
 }
