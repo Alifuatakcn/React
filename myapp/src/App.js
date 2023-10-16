@@ -25,30 +25,34 @@ import Events from "./components/13-events/events";
 const App= () =>{
   return(
     <div>
-        {/* {/*  <HelloWorld/>
-         <Jsx1/>
-         <Jsx2/> 
-         <Jsx3/>
-         <Jsx4/> 
-         <Jsx5/>
-         {/*<Jsx6/> 
-          <Style1/>
-         <Style2/> 
-         {/* <Style3/> 
-         <Style4/> 
-         {/*<Clock1/>
-         
-        {/* <Greetings/> 
-        {/* <Products/> 
-        {/* <Clock2 textColor="red" bgColor="blue"/>*/}
-         {/* <Homework/> */}
-        {/*  <Image/> */}
-        {/* <Gallery/> */}
-    {/* <ProfileCard avatar="image6.jpg" name="Ali gel" location="Turkey , Istanbul" shot="1" followers="23" following="34" />
- */}  
-        {/* <BootstrapStatic/>   */}  
-        {/* <BootstrapDynamic/>    */}
-        {/* <Icon/> */}
+        {/* 
+
+            <HelloWorld/>
+            <Jsx1/>
+            <Jsx2/> 
+            <Jsx3/>
+            <Jsx4/> 
+            <Jsx5/>
+            <Jsx6/> 
+            <Style1/>
+            <Style2/> 
+            <Style3/> 
+            <Style4/> 
+            <Clock1/>
+             
+            <Greetings/> 
+            <Products/> 
+            <Clock2 textColor="red" bgColor="blue"/>
+            <Homework/>
+            <Image/>
+            <Gallery/> 
+            <ProfileCard avatar="image6.jpg" name="Ali gel" location="Turkey , Istanbul" shot="1" followers="23" following="34" />
+ 
+            <BootstrapStatic/>    
+            <BootstrapDynamic/>
+            <Icon/> 
+            
+            */}
         <Events/>
    </div>
   )
