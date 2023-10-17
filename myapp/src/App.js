@@ -21,6 +21,7 @@ import BootstrapStatic from "./components/11-bootstrap/bootstrap-static";
 import Icon from "./components/12-icons/icon";
 import Events from "./components/13-events/events";
 import BootstrapDynamic from "./components/11-bootstrap/bootstrap-dynamic";
+import Shop from "./components/13-product-card/Shop";
 
 
 const App= () =>{
@@ -47,15 +48,15 @@ const App= () =>{
             <Image/>
             <Gallery/>
             
-            
+             <Icon/>
             <Events/>
             <ProfileCard avatar="cooper.jpg" name="Sheldon Lee Cooper" location="USA, California" shot="33" followers="12345567" following="3"/>
             <Homework/>
             <BootstrapStatic/> 
             <BootstrapDynamic/>
             */}
-            
-            <Icon/>
+            <Shop/>
+           
            
           
             </div>
