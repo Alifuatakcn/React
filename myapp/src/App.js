@@ -20,6 +20,7 @@ import ProfileCard from "./components/10-profile-card/profile-card";
 import BootstrapStatic from "./components/11-bootstrap/bootstrap-static";
 import Icon from "./components/12-icons/icon";
 import Events from "./components/13-events/events";
+import BootstrapDynamic from "./components/11-bootstrap/bootstrap-dynamic";
 
 
 const App= () =>{
@@ -39,22 +40,26 @@ const App= () =>{
             <Style3/> 
             <Style4/> 
             <Clock1/>
-             
             <Greetings/> 
             <Products/> 
             <Clock2 textColor="red" bgColor="blue"/>
-            <Homework/>
+            
             <Image/>
-            <Gallery/> 
- 
-            <BootstrapStatic/>    
-            <BootstrapDynamic/>
-            <Icon/> 
+            <Gallery/>
+            
+            
             <Events/>
+            <ProfileCard avatar="cooper.jpg" name="Sheldon Lee Cooper" location="USA, California" shot="33" followers="12345567" following="3"/>
+            <Homework/>
+            <BootstrapStatic/> 
+            <BootstrapDynamic/>
             */}
-            <ProfileCard avatar="cooper.jpg" name="Ali gel" location="Turkey , Istanbul" shot="1" followers="23" following="34" />
-
-   </div>
+            
+            <Icon/>
+           
+          
+            </div>
   )
 }
-export default App;
+
+export default App

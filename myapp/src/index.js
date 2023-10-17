@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/scss/bootstrap.scss';//scss icin gerekli olan bootstrap importu
+import "bootstrap";//bootstrap icin geekli olan js importu
+import 'bootstrap/dist/css/bootstrap.min.css';//css icin gerekli olan bootstrap importu
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-import 'bootstrap/scss/bootstrap.scss';
-//import "bootstrap"; bu import eğer bootstrap static kullanılacaksa yazılır
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,4 +13,4 @@ root.render(
   </React.StrictMode>
 );
 
-reportWebVitals();
+

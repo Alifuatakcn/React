@@ -1,13 +1,10 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import {Container, Nav, NavDropdown, Navbar,} from "react-bootstrap"
 
 const BootstrapDynamic = () => {
   return (
-
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <div>
+ <Navbar expand="lg"  bg="info" data-bs-theme="dark">
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -30,7 +27,9 @@ const BootstrapDynamic = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
+
+    </div>
+  )
 }
 
 export default BootstrapDynamic
