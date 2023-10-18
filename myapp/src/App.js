@@ -1,65 +1,115 @@
-import HelloWorld from "./components/01-hello-world/hello-world";
-import Jsx2 from "./components/03-jsx/jsx2";
-import Jsx1 from "./components/03-jsx/jsx1";
-import Jsx3 from "./components/03-jsx/jsx3";
-import Jsx4 from "./components/03-jsx/jsx4";
-import Jsx5 from "./components/03-jsx/jsx5";
-import Jsx6 from "./components/03-jsx/jsx6";
-import Style1 from "./components/04-styles/style1";
-import Style2 from "./components/04-styles/style2";
-import Style3 from "./components/04-styles/style3";
-import Style4 from "./components/04-styles/style4";
-import Clock1 from "./components/05-clock1/clock1";
-import Homework from "./components/homework/homework";
-import Greetings from "./components/06-props-1/greetings";
-import Products from "./components/07-props-2/products";
-import Clock2 from "./components/08-clock2/clock2";
-import Image from "./components/09-image/image";
-import Gallery from "./components/09-image/gallery";
-import ProfileCard from "./components/10-profile-card/profile-card";
-import BootstrapStatic from "./components/11-bootstrap/bootstrap-static";
-import Icon from "./components/12-icons/icon";
-import Events from "./components/13-events/events";
-import BootstrapDynamic from "./components/11-bootstrap/bootstrap-dynamic";
-import Shop from "./components/13-product-card/Shop";
+import React from 'react'
+import DynamicReactBootstrap from './components/10-bootstrap/DynamicReactBootstrap'
 
 
-const App= () =>{
-  return(
+/* import HelloWorld from './components/01-hello-world/HelloWorld.jsx' 
+
+import { Armut, Elma } from './components/01-hello-world/MyHouse.jsx'
+
+import HelloReact from './components/01-hello-world/HelloReact'
+
+import Jsx1 from './components/02-jsx/Jsx1'
+
+import Jsx2Ternary from './components/02-jsx/Jsx2Ternary'
+
+import ControlMenu from './components/02-jsx/ControlMenu'
+
+import Jsx3ShortCircuit from './components/02-jsx/Jsx3ShortCircuit'
+
+import Jsx4Map from './components/02-jsx/Jsx4Map'
+
+import Countries from './components/02-jsx/Countries'
+
+import Products from './components/02-jsx/Products'
+
+import InlineStyle from './components/03-styles/InlineStyle'
+
+import InternalStyle from './components/03-styles/InternalStyle'
+
+import ExternalStyle from './components/03-styles/ExternalStyle'
+
+import ExternalSass from './components/03-styles/ExternalSass'
+
+import Clock from './components/04-clock-1/Clock'
+
+import Greetings from './components/05-props-1/Greetings'
+
+import Urunler from './components/06-props-2-children/Urunler'
+
+import Clock2 from './components/07-clock-2/Clock2'
+
+import ResimEkle from './components/08-image/ResimEkle'
+
+import Gallery from './components/08-image/Gallery'
+
+import ProfileCard from './components/09-profile-card/ProfileCard'
+
+import StaticBootstrap from './components/10-bootstrap/StaticBootstrap'
+
+*/
+
+
+
+const App = () => {
+
+
+
+  return (
     <div>
-        {/* 
 
-            <HelloWorld/>
-            <Jsx1/>
-            <Jsx2/> 
-            <Jsx3/>
-            <Jsx4/> 
-            <Jsx5/>
-            <Jsx6/> 
-            <Style1/>
-            <Style2/> 
-            <Style3/> 
-            <Style4/> 
-            <Clock1/>
-            <Greetings/> 
-            <Products/> 
-            <Clock2 textColor="red" bgColor="blue"/>
-            
-            <Image/>
-            <Gallery/>
-            
-             <Icon/>
-            <Events/>
-            <ProfileCard avatar="cooper.jpg" name="Sheldon Lee Cooper" location="USA, California" shot="33" followers="12345567" following="3"/>
-            <Homework/>
-            <BootstrapStatic/> 
-            <BootstrapDynamic/>
-            */}
-            <Shop/>
-           
-           
-          
-            </div>
+      {/*
+ <HelloWorld/>
+<Armut/>
+<Elma/>
+ <HelloReact/>
+  <Jsx1/>
+  <Jsx2Ternary/>
+ <ControlMenu/>
+<Jsx3ShortCircuit/>
+<Jsx4Map/>
+ <Countries/>
+  <Products/>
+  <InlineStyle/>
+ <InternalStyle/>
+ <ExternalStyle/>
+ <ExternalSass/>
+   <Clock/>
+   <Greetings/>
+
+    <Urunler>
+  <h1>test</h1>
+
+   <Clock2 textColor="blue" bgColor="coral" fontSize="5rem" oval="15px"/> 
+
+ </Urunler>
+     <ResimEkle/>
+     <Gallery/>
+
+       <ProfileCard
+  avatar="cooper.jpg"
+  name="Sheldon Lee Cooper"
+  location="USA, California"
+  shot="33"
+  followers="12345567"
+  following="3"
+  />
+  <StaticBootstrap/>
+
+  */ }
+  <DynamicReactBootstrap/>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
   )
 }
 
