@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 const StaticBootstrap = () => {
   return (
     <div>

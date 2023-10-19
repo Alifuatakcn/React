@@ -1,6 +1,6 @@
 import React from 'react'
 import ProductCard from '../product-card/product-card'
-import "../product-list/data.json"
+import data from '../product-list/data.json'
 import { Col, Container, Row } from 'react-bootstrap'
 
 const ProductList = () => {

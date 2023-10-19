@@ -1,5 +1,10 @@
 import React from 'react'
-import DynamicReactBootstrap from './components/10-bootstrap/DynamicReactBootstrap'
+import "./App.css"
+import ESignature from './components/16-e-imza/ESignature'
+import Shop from './components/13-product-card/Shop'
+import Progress from './components/odev/progress'
+
+
 
 
 /* import HelloWorld from './components/01-hello-world/HelloWorld.jsx' 
@@ -46,7 +51,27 @@ import ProfileCard from './components/09-profile-card/ProfileCard'
 
 import StaticBootstrap from './components/10-bootstrap/StaticBootstrap'
 
+import DynamicReactBootstrap from './components/10-bootstrap/DynamicReactBootstrap'
+
+import Icons from './components/11-icons/Icons'
+
+import MaterialIcons from './components/11-icons/MaterialIcons'
+
+import Events from './components/12-events/Events'
+
+
+
+import StateModeEx from './components/14-useState/StateModeEx'
+
+import Counter from './components/15-counter/Counter'
+
 */
+
+
+
+
+
+
 
 
 
@@ -94,20 +119,18 @@ const App = () => {
   following="3"
   />
   <StaticBootstrap/>
-
+   <DynamicReactBootstrap/>
+ <Icons/>
+ <MaterialIcons/>
+ <Events/>
+ <Shop/>
+    <StateModeEx/>
+    <Counter/>
+    <ESignature/>
   */ }
-  <DynamicReactBootstrap/>
+  
 
-
-
-
-
-
-    
-
-
-
-
+  <Progress/>
 
     </div>
   )

@@ -1,12 +1,27 @@
 import React from 'react'
-import "../product-list/data.json"
-import { Container } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap'
+import { AiFillStar,AiOutlineStar } from 'react-icons/ai';
 
 const ProductCard = (props) => {
-    const {title,image,price,discount,rate}=props;
-   
+    const {id,title,image,price,descount,rate}=props
+
+    
+
   return (
-    <div>ProductCard</div>
+    <Card className=''>
+    <Card.Img variant="top" src={require(`../../assets/products/${image}`)} />
+    <Card.Body className='text-center '>
+      <Card.Title>{title}</Card.Title>
+      <Card.Text>{descount}</Card.Text>
+      <Card.Text >{[...new Array(5).map( (item,index) =>( <span
+        key={index}>{index < rate ? <AiFillStar/> : <AiOutlineStar/>}
+      </span>))]}
+       </Card.Text>
+      <Card.Subtitle className='fs-3 mb-1'>${price}</Card.Subtitle>
+
+     
+    </Card.Body>
+  </Card>
   )
 }
 
