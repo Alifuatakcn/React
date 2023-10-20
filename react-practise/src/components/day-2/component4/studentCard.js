@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 
-const StudentCard = ({ student }) => {
+const StudentCard = ({ student, handleDelete }) => {
   const { yas, isim, kurs, img } = student;
 
   return (
@@ -11,7 +11,9 @@ const StudentCard = ({ student }) => {
         <Card.Title>{isim}</Card.Title>
         <Card.Title>{yas}</Card.Title>
         <Card.Text>{kurs}</Card.Text>
-        <Button variant="danger">Delete</Button>
+        <Button variant="danger"  onClick={() => handleDelete(isim)}>
+          Delete
+        </Button>
       </Card.Body>
     </Card>
   );

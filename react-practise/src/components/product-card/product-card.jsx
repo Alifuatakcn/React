@@ -1,23 +1,22 @@
-import React from 'react'
-import { Button, Card, ListGroup } from 'react-bootstrap'
-import { AiFillStar,AiOutlineStar } from 'react-icons/ai';
-import '../product-card/product-card.scss'
+import React from "react";
+import { Card } from "react-bootstrap";
 
-const ProductCard = ({id,title,image,descount,rate}) => {
-
+const ProductCard = ({ product }) => {
+  const { id, title, image,price,descount,rate } = product;
 
   return (
-    <div className="card">
-    <img src={imageSrc} alt={title} className="card-img-top" />
-    <div className="card-body">
-      <h5 className="card-title">{title}</h5>
-      <p className="card-text">{description}</p>
-    </div>
-  </div>
+    <Card>
+      <Card.Img variant="top" src={require(`../../assets/img/${image}`)} style={{ height: "350px" }} />
+      <Card.Body>
+        <Card.Title>{id}</Card.Title>
+        <Card.Title>{title}</Card.Title>
+        <Card.Title>{price}</Card.Title>
+        <Card.Title>{descount}</Card.Title>
+        <Card.Text>{rate}</Card.Text>
+       
+      </Card.Body>
+    </Card>
+  );
+};
 
-    )
-          }
-
-
-
-export default ProductCard
+export default ProductCard;

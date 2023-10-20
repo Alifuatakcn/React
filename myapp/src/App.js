@@ -3,6 +3,8 @@ import "./App.css"
 import ESignature from './components/16-e-imza/ESignature'
 import Shop from './components/13-product-card/Shop'
 import Progress from './components/odev/progress'
+import Sayac from './components/17-useEffect/Sayac'
+import FilteredCountries from './components/18-country-filter/FilteredCountries'
 
 
 
@@ -83,54 +85,55 @@ const App = () => {
     <div>
 
       {/*
- <HelloWorld/>
-<Armut/>
-<Elma/>
- <HelloReact/>
-  <Jsx1/>
-  <Jsx2Ternary/>
- <ControlMenu/>
-<Jsx3ShortCircuit/>
-<Jsx4Map/>
- <Countries/>
-  <Products/>
-  <InlineStyle/>
- <InternalStyle/>
- <ExternalStyle/>
- <ExternalSass/>
-   <Clock/>
-   <Greetings/>
+        <HelloWorld/>
+        <Armut/>
+        <Elma/>
+        <HelloReact/>
+        <Jsx1/>
+        <Jsx2Ternary/>
+        <ControlMenu/>
+        <Jsx3ShortCircuit/>
+        <Jsx4Map/>
+        <Countries/>
+        <Products/>
+        <InlineStyle/>
+        <InternalStyle/>
+        <ExternalStyle/>
+        <ExternalSass/>
+        <Clock/>
+        <Greetings/>
 
-    <Urunler>
-  <h1>test</h1>
+        <Urunler>
+        <h1>test</h1>
 
-   <Clock2 textColor="blue" bgColor="coral" fontSize="5rem" oval="15px"/> 
+        <Clock2 textColor="blue" bgColor="coral" fontSize="5rem" oval="15px"/> 
 
- </Urunler>
-     <ResimEkle/>
-     <Gallery/>
+        </Urunler>
+        <ResimEkle/>
+        <Gallery/>
 
-       <ProfileCard
-  avatar="cooper.jpg"
-  name="Sheldon Lee Cooper"
-  location="USA, California"
-  shot="33"
-  followers="12345567"
-  following="3"
-  />
-  <StaticBootstrap/>
-   <DynamicReactBootstrap/>
- <Icons/>
- <MaterialIcons/>
- <Events/>
- <Shop/>
-    <StateModeEx/>
-    <Counter/>
-    <ESignature/>
+        <ProfileCard
+           avatar="cooper.jpg"
+           name="Sheldon Lee Cooper"
+           location="USA, California"
+           shot="33"
+           followers="12345567"
+           following="3"/>
+        <StaticBootstrap/>
+        <DynamicReactBootstrap/>
+        <Icons/>
+        <MaterialIcons/>
+        <Events/>
+        <Shop/>
+        <StateModeEx/>
+        <Counter/>
+        <ESignature/>
+        <Progress/>
+         <Sayac/>
   */ }
   
 
-  <Progress/>
+     <FilteredCountries/>
 
     </div>
   )
