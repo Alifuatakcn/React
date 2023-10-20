@@ -3,17 +3,23 @@ import ProductCard from '../product-card/product-card'
 import data from '../product-list/data.json'
 import { Col, Container, Row } from 'react-bootstrap'
 
+
 const ProductList = () => {
   return (
-    <Container>
-        <Row>
-        {data.map( (product) => ( 
-            <Col key={product.id}>
-                <ProductCard {...product}/>
-            </Col>
-            ))}
-           
+    <Container   >
+        <Row >
+            {
+                data.map((product)=>(
+
+                    <Col key={product.id}>
+                        <ProductCard {...product}  />
+                    </Col>
+                ))
+
+            }
+
         </Row>
+
     </Container>
   )
 }
