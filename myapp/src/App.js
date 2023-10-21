@@ -5,6 +5,7 @@ import Shop from './components/13-product-card/Shop'
 import Progress from './components/odev/progress'
 import Sayac from './components/17-useEffect/Sayac'
 import FilteredCountries from './components/18-country-filter/FilteredCountries'
+import Clock3 from './components/19-clock-3/Clock3'
 
 
 
@@ -130,10 +131,11 @@ const App = () => {
         <ESignature/>
         <Progress/>
          <Sayac/>
+          <FilteredCountries/>
   */ }
   
 
-     <FilteredCountries/>
+    <Clock3/>
 
     </div>
   )
