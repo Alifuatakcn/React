@@ -6,6 +6,8 @@ import Progress from './components/odev/progress'
 import Sayac from './components/17-useEffect/Sayac'
 import FilteredCountries from './components/18-country-filter/FilteredCountries'
 import Clock3 from './components/19-clock-3/Clock3'
+import UseRefHooku from './components/20-useRef/UseRefHooku'
+import ClassComp from './components/21-compenents-type/ClassComp'
 
 
 
@@ -130,12 +132,14 @@ const App = () => {
         <Counter/>
         <ESignature/>
         <Progress/>
-         <Sayac/>
-          <FilteredCountries/>
+        <Sayac/>
+        <FilteredCountries/>
+        <Clock3/>
+        <UseRefHooku/>
   */ }
   
 
-    <Clock3/>
+   <ClassComp/>
 
     </div>
   )
