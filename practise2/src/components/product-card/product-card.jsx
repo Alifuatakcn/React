@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Card, Container } from 'react-bootstrap'
+import { Card, Container } from 'react-bootstrap'
 import { AiFillStar, AiOutlineStar} from 'react-icons/ai';
 
 const ProductCard = (props) => {
@@ -16,11 +16,11 @@ const ProductCard = (props) => {
   return (
    <Container className='container-card'>
     <Card style={{ width: '10rem'}}>
-    <Card.Img  src={require(`../../assets/products/${image}`)} />
+    <Card.Img  src={require(`../../assets/${image}`)} />
     <Card.Body className='text-center '>
       <Card.Title>{title}</Card.Title>
       <Card.Text className='dis '>
-        {discount}%
+        {discount==0 ? "" : <span>%{discount}</span>}
       </Card.Text>
       <Card.Text>
        {[...new Array(5)].map( (item,index) => (<span key={index}>
