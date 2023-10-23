@@ -8,6 +8,7 @@ import FilteredCountries from './components/18-country-filter/FilteredCountries'
 import Clock3 from './components/19-clock-3/Clock3'
 import UseRefHooku from './components/20-useRef/UseRefHooku'
 import ClassComp from './components/21-compenents-type/ClassComp'
+import Fetch1 from './components/22-fetch/fetch1'
 
 
 
@@ -136,10 +137,11 @@ const App = () => {
         <FilteredCountries/>
         <Clock3/>
         <UseRefHooku/>
+         <ClassComp/>
   */ }
   
-
-   <ClassComp/>
+     <Fetch1/>
+  
 
     </div>
   )
