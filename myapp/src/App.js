@@ -2,6 +2,9 @@ import React from 'react'
 import "./App.css"
 import ToDoApp from './components/homework/ToDoApp'
 import Form1 from './components/25-forms/form1'
+import Form2 from './components/25-forms/form2'
+import Form3 from './components/25-forms/form3'
+import Form4 from './components/25-forms/form4'
 
 
 
@@ -156,9 +159,13 @@ const App = () => {
         <Countries/>
         <ParentComponent/>
         <ToDoApp/>
+        <Form1/>
+        <Form2/>
+        <Form3/>
   */ }
   
-   <Form1/>
+  <Form4/>
+   
     
 
     </div>
