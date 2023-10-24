@@ -1,15 +1,7 @@
 import React from 'react'
 import "./App.css"
-import ESignature from './components/16-e-imza/ESignature'
-import Shop from './components/13-product-card/Shop'
-import Progress from './components/odev/progress'
-import Sayac from './components/17-useEffect/Sayac'
-import FilteredCountries from './components/18-country-filter/FilteredCountries'
-import Clock3 from './components/19-clock-3/Clock3'
-import UseRefHooku from './components/20-useRef/UseRefHooku'
-import ClassComp from './components/21-compenents-type/ClassComp'
-import Fetch1 from './components/22-fetch/fetch1'
-import Countries from './components/23-axios/countries'
+import ToDoApp from './components/homework/ToDoApp'
+import Form1 from './components/25-forms/form1'
 
 
 
@@ -66,11 +58,32 @@ import MaterialIcons from './components/11-icons/MaterialIcons'
 
 import Events from './components/12-events/Events'
 
-
-
 import StateModeEx from './components/14-useState/StateModeEx'
 
 import Counter from './components/15-counter/Counter'
+
+import ESignature from './components/16-e-imza/ESignature'
+
+import Shop from './components/13-product-card/Shop'
+
+import Progress from './components/odev/progress'
+
+import Sayac from './components/17-useEffect/Sayac'
+
+import FilteredCountries from './components/18-country-filter/FilteredCountries'
+
+import Clock3 from './components/19-clock-3/Clock3'
+
+import UseRefHooku from './components/20-useRef/UseRefHooku'
+
+import ClassComp from './components/21-compenents-type/ClassComp'
+
+import Fetch1 from './components/22-fetch/fetch1'
+
+import Countries from './components/23-axios/countries'
+
+import ParentComponent from './components/24-lifting-state-up/parent-component'
+
 
 */
 
@@ -140,10 +153,13 @@ const App = () => {
         <UseRefHooku/>
         <ClassComp/>
         <Fetch1/>
+        <Countries/>
+        <ParentComponent/>
+        <ToDoApp/>
   */ }
   
-    <Countries/>
-  
+   <Form1/>
+    
 
     </div>
   )
