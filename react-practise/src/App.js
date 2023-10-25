@@ -1,6 +1,8 @@
 // eslint-disable-next-line
 //import Dersler from "./components//day-1/component1/dersler";
 //import Practice2 from "./components/day-1/component2/practice2";
+import FormPractise from "./components/day-4/componenet1/form";
+import FormPractiseWithFormikYup from "./components/day-4/component2/form";
 import Homework from "./components/homework/homework";
 import ProductList from "./components/product-list/product-list";
 
@@ -10,8 +12,11 @@ function App() {
       {/* <Dersler /> 
        <Practice2 />
        <Homework/>
+       <ProductList/>
+        <FormPractise/>
       */}
-     <ProductList/>
+    
+     <FormPractiseWithFormikYup/>
     </>
   );
 }

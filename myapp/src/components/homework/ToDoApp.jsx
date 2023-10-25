@@ -6,23 +6,19 @@ import Notes from './Notes'
 const ToDoApp = () => {
   return (
    
-    <Container> 
-      <Table striped bordered >
-        <thead>
+    <Container className="square border border-danger border-3 rounded"> 
+    
        <Row >
-        <Col>
-          <NoteForm/>
-        </Col>
-        <Col>
+        <Col className="d-flex  row-cols-md-3 row-cols-lg-2 " >
+        <NoteForm/>
+       
          <Notes/>
-        </Col>
+         </Col>
       </Row>
-      </thead>
-      </Table>
+     
    </Container> 
   )
 }
 
 export default ToDoApp
 
-//className="row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"

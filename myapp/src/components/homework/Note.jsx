@@ -4,10 +4,10 @@ import { AiFillDelete } from 'react-icons/ai';
 
 const Note = () => {
   return (
-    <Card className="h-100">
+    <Card className="square border border-warning border-2">
       <Card.Body>
         <h2 >Title</h2>
-        <div style={{backgrounColor:"red"}}>
+        <div >
        
         <input type="checkbox" />
 

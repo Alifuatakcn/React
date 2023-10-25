@@ -27,7 +27,7 @@ const Notes = () => {
     }, []);
   return (
     <Container>
-    <Row >
+    <Row className="square border border-info border-2 rounded">
       {users.map((user) => (
         <Col key={user.id}>
           <Note title={user.title} />

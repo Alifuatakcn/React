@@ -4,8 +4,8 @@ import { Button, Card, Col, Row } from 'react-bootstrap'
 const NoteForm = () => {
   return (
     <Row>
-    <Col>
-    <Card className="h-100">
+    <Col >
+    <Card className="square border border-success border-2">
       <Card.Body>
         <h2 >Title</h2>
         <div >
