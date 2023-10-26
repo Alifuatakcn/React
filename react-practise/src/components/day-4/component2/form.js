@@ -65,7 +65,7 @@ const FormPractiseWithFormikYup = () => {
     finally {
         setLoading(false);
         formik.resetForm();
-        navigate("/home")
+        //navigate("/home")
     }
     setTimeout(() => {
       setLoading(false);
