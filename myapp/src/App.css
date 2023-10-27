@@ -11,9 +11,14 @@
   list-style-type: none;
 }
 
+html{
+  scroll-behavior:auto !important;
+}
+
 /* Roboto Font */
 body {
   font-family: "Roboto", sans-serif;
+  
 }
 
 /*Container class*/

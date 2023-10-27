@@ -58,11 +58,9 @@ useEffect(() => {
 
 
   return () => {
-    console.log(`
+  
         
-Unmounting: Kodlarin hafizadan atilmadan once calistigi yer
-
-    `)
+/* "Unmounting: Kodlarin hafizadan atilmadan once calistigi yer" */
 
     clearTimeout(timer)
    

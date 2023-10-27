@@ -143,6 +143,7 @@ const Form5 = () => {
             {...formik.getFieldProps("password")}
             isInvalid={checkIsInvalid("password")}
             isValid={checkIsValid("password")}
+            
           />
           <Form.Control.Feedback type="invalid">
             {formik.errors.password}

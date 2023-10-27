@@ -40,7 +40,7 @@ const ESignature = () => {
 
             <input type="datetime-local"  value={date}  style={inputStyle} onChange={handleDateTime}  />
 
-            <input type="text" value={name} style={inputStyle }  onChange={handleChangeName}   />
+            <input type="text" value={name} style={inputStyle}  onChange={handleChangeName}  />
 
         </footer>
 

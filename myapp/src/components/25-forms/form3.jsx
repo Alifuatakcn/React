@@ -3,7 +3,7 @@ import { Button, Container, Form } from "react-bootstrap";
 
 const Form3 = () => {
     const [formData, setFormData] = useState({
-      firstName: "",
+      firstName: "Ali",
       lastName:"",
       email:"",
       phone:""
@@ -35,12 +35,12 @@ const Form3 = () => {
 
         <Form.Group className="mb-3" controlId="lastName">
           <Form.Label>Last Name</Form.Label>
-          <Form.Control type="text" name="lastName" value={formData.lastName} placeholder=""  onChange={handleFormData}/>
+          <Form.Control type="text" name="lastName" value={formData.lastName}  placeholder=""  onChange={handleFormData}/>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="email">
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email" name="email"  value={formData.email} placeholder=""  onChange={handleFormData}/>
+          <Form.Control type="email" name="email" value={formData.email}   placeholder=""  onChange={handleFormData}/>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="phone">

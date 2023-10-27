@@ -5,23 +5,28 @@ import { Link } from 'react-router-dom'
 const HomePage = () => {
   return (
     <div>
-      <h1>React Examples</h1>
-
-      
+          
       <Container>
         <Row className="row-cols-2 row-cols-md-4 row-cols-lg-5">
             <Col>
-                <Link to="/hello-world" className="btn btn-light">Hello World</Link>
+                <Link to="/hello-world" className="btn btn-light btn-block">Hello World</Link>
             </Col>
             <Col>
-                <Link to="/countries" className="btn btn-light">Countries</Link>
+                <Link to="/countries" className="btn btn-light btn-block">Countries</Link>
             </Col>
             <Col>
-                <Link to="/external-sass" className="btn btn-light">External Sass</Link>
+                <Link to="/external-sass" className="btn btn-light btn-block">External Sass</Link>
             </Col>
             <Col>
-                <Link to="/clcok" className="btn btn-light">Clock</Link>
+                <Link to="/clock" className="btn btn-light btn-block">Clock</Link>
             </Col>
+            <Col>
+                <Link to="/movies" className="btn btn-light btn-block">Movies</Link>
+            </Col>
+            <Col>
+                <Link to="/exchange" className="btn btn-light btn-block">Exchange</Link>
+            </Col>
+            
             
         </Row>
       </Container>

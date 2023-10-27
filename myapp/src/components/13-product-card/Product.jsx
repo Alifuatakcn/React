@@ -10,7 +10,7 @@ const Product = (props) => {
 
   return (
     <Card style={{ width: '18rem' }}>
-    <Card.Img  src={require(`../../assets/img/${image}`)} />
+    <Card.Img variant="top" src={require(`../../assets/img/${image}`)} />
     <Card.Body className='text-center '>
       <Card.Title>{title}</Card.Title>
       <Card.Text>
