@@ -7,6 +7,7 @@ import AppLayout from "../layout";
 import Clock from "../components/04-clock-1/Clock";
 import Movies from "../components/26-router/movies";
 import MovieDetail from "../components/26-router/movie-detail";
+import Exchange from "../components/27-context-api/exchange";
 
 
 
@@ -47,7 +48,11 @@ const router = createBrowserRouter([
                         element: <MovieDetail/>,
                     }
                 ]
-            }
+            },
+            {
+                path: "exchange",
+                element: <Exchange/>
+            },
         ]
 
     },

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import ExchangeRates from "./exchange-rates";
 
 const Header = () => {
   const { pathname } = useLocation();
@@ -16,6 +17,7 @@ const Header = () => {
           </>
         )}
       </nav>
+          <ExchangeRates/>
     </header>
   );
 };
