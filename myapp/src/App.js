@@ -1,39 +1,11 @@
-import AppRouterProvider from "./router";
+import AppRouterProvider from "./router"
 import "./App.css";
-import StoreContext from "./store";
-import { useEffect, useState } from "react";
-import axios from "axios";
 
 const App = () => {
-  const [counter, setCounter] = useState(100);
-  const [currencies, setCurrencies] = useState(null);
-
-  const loadData = async () => { 
-    try {
-      const resp = await axios.get("https://api.frankfurter.app/latest?from=try");
-      const data = resp.data;
-
-      setCurrencies(data.rates);
-
-    } catch (err) {
-      console.log(err)
-    }
-
-  }
-
-  useEffect(() => {
-    loadData();
-  }, [])
   
 
-  if(!currencies) return null;
 
-
-  return (
-    <StoreContext.Provider value={{counter, setCounter, currencies}}>
-      <AppRouterProvider />
-    </StoreContext.Provider>
-  );
+  return <AppRouterProvider/>;
 };
 
 export default App;
