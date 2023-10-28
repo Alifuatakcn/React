@@ -1,27 +1,37 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import StoreContext from "../../store";
-import { Form, InputGroup } from "react-bootstrap";
+import { Container, Form, InputGroup } from "react-bootstrap";
 
 const Exchange = () => {
   const store = useContext(StoreContext);
+  const [amount, setAmount] = useState(1);
+  const [currency, setCurrency] = useState("USD");
+  const [result, setResult] = useState()
   const { currencies } = store;
 
-  const handleChange = (e) => { 
-    console.log(e.target.value)
-   }
+
+  useEffect(() => {
+    const val = (amount / currencies[currency]).toFixed(2);
+    setResult(val);
+
+  }, [amount, currency])
+  
+
 
   return (
-    <div>
+    <Container>
       <InputGroup className="mb-3">
         <Form.Control
           placeholder="Type amount"
           aria-label="Type amount"
           aria-describedby="basic-addon1"
+          value={amount}
+          onChange={(e)=>setAmount(e.target.value)}
         />
 
         <Form.Select
           aria-label="Default select example"
-          onChange={handleChange} value=""
+          onChange={(e)=>setCurrency(e.target.value)} value={currency}
         >
           <option disabled>
             Currency
@@ -33,9 +43,9 @@ const Exchange = () => {
           ))}
         </Form.Select>
 
-        <InputGroup.Text id="basic-addon1">Result:</InputGroup.Text>
+        <InputGroup.Text id="basic-addon1">Result: {result}₺</InputGroup.Text>
       </InputGroup>
-    </div>
+    </Container>
   );
 };
 
