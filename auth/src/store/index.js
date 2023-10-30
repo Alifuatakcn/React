@@ -1,6 +1,8 @@
 import { createContext, useContext, useReducer } from "react";
 import { counterReducer } from "./counter/counter-reducer";
 import { counterInitialState } from "./counter/counter-initial-state";
+import { authReducer } from "./auth/auth-reducer";
+import { authInitialState } from "./auth/auth-initial-state";
 
 // Boş bir merkezi state oluştuurldu
 const StoreContext = createContext();
@@ -17,8 +19,12 @@ const StoreProvider = ({ children }) => {
     counterInitialState
   );
 
+  const [authState, dispatchAuth] = useReducer(authReducer, authInitialState);
+
+
+
   return (
-    <StoreContext.Provider value={{ counterState, dispatchCounter }}>
+    <StoreContext.Provider value={{ counterState, dispatchCounter, authState, dispatchAuth }}>
       {children}
     </StoreContext.Provider>
   );

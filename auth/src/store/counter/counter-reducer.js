@@ -1,6 +1,11 @@
 import { COUNTER_DOWN, COUNTER_UP } from "../types";
 import { counterInitialState } from "./counter-initial-state";
 
+
+// Reducer state i günceller
+
+// acition -> { type: COUNTER_UP, payload: 33 }
+
 export const counterReducer = (state=counterInitialState, action) => {
     if(action.type === COUNTER_UP){
         return {...state, counter: state.counter + action.payload}
