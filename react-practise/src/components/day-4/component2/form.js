@@ -1,6 +1,6 @@
 import { useFormik } from "formik";
 import React, { useState } from "react";
-import { Button, Container, Form, FormCheck, Spinner } from "react-bootstrap";
+import { Button, Container, Form, Spinner } from "react-bootstrap";
 import ReactInputMask from "react-input-mask";
 import * as Yup from "yup";
 
@@ -56,17 +56,6 @@ const FormPractiseWithFormikYup = () => {
   });
 
   const onSubmit = (values) => {
-    setLoading(true);
-    try {
-        
-    } catch (error) {
-        alert()
-    }
-    finally {
-        setLoading(false);
-        formik.resetForm();
-        //navigate("/home")
-    }
     setTimeout(() => {
       setLoading(false);
       alert("Kayıt Başarılı");

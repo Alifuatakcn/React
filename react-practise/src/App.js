@@ -1,26 +1,36 @@
 // eslint-disable-next-line
-//import Dersler from "./components//day-1/component1/dersler";
-//import Practice2 from "./components/day-1/component2/practice2";
-//import FormPractise from "./components/day-4/componenet1/form";
-//import FormPractiseWithFormikYup from "./components/day-4/component2/form";
+import Dersler from "./components/day-1/component1/dersler";
+// eslint-disable-next-line
+import Practice2 from "./components/day-1/component2/practice2";
+// eslint-disable-next-line
 import Practise3 from "./components/day-2/component1/practise3";
-import ToDoApp from "./components/homework/ToDoApp";
-//import Homework from "./components/homework/homework";
-//import ProductList from "./components/product-list/product-list";
+// eslint-disable-next-line
+import Ulkeler from "./components/day-2/component2/ulkeler";
+// eslint-disable-next-line
+import Kisiler from "./components/day-2/component3/kisiler";
+// eslint-disable-next-line
+import Cards from "./components/day-2/component4/cards";
+// eslint-disable-next-line
+import Countries from "./components/day-3/component1/countries";
+// eslint-disable-next-line
+import FormPractise from "./components/day-4/component1/form";
+// eslint-disable-next-line
+import FormPractiseWithFormikYup from "./components/day-4/component2/form";
+import CustomRoutes from "./router/custom-routes";
 
 function App() {
   return (
     <>
-      {/* <Dersler /> 
-       <Practice2 />
-       <Homework/>
-       <ProductList/>
-        <FormPractise/>
-         <FormPractiseWithFormikYup/>
-         <ToDoApp/>
-      */}
-    
-    <Practise3/>
+      {/* <Dersler />
+      <Practice2 /> */}
+      {/* <Practise3 /> */}
+      {/* <Ulkeler /> */}
+      {/* <Kisiler /> */}
+      {/* <Cards /> */}
+      {/* <Countries/> */}
+      {/* <FormPractise /> */}
+      {/* <FormPractiseWithFormikYup /> */}
+      <CustomRoutes />
     </>
   );
 }
